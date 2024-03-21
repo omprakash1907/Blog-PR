@@ -97,11 +97,10 @@ app.post('/dashboard', auth, async (req, res) => {
       }
       const post = await postModel(details)
       const result = post.save()
-      res.redirect('/dashboard')
+      res.redirect('/')
     }else{
       console.log("error")
     }
-    res.redirect('/dashboard')
   })
 })
 
