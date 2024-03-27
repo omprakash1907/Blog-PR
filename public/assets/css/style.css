@@ -233,7 +233,7 @@ h6 {
 }
 
 .card-title {
-  padding: 20px 0 15px 0;
+  padding: 13px 0 7px 0;
   font-size: 18px;
   font-weight: 500;
   color: #012970;
@@ -1351,5 +1351,23 @@ h6 {
   border: 1px solid #2d79f3;
   ;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
     
